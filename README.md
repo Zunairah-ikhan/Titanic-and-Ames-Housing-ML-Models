@@ -1,24 +1,12 @@
 # ML Models for the Titanic and Ames Housing datasets
 
 >I. Titanic Dataset
-[https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
-The RMS Titanic was a British ocean liner, the largets ship of its time, that sank on 15th of April, 1912 after colliding with an iceberg during her maiden voyage. The infamous sinking of the "unsinkable" is often considered as one of the most deadly sinkings resulting in the death of approximately 1502 of its 2224 passengers. Though there was some element of luck involved in surviving, some groups seemed more likely to survive than others. So in this notebook, I will be trying to build a model to predict just that
+>[https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
+>The RMS Titanic was a British ocean liner, the largets ship of its time, that sank on 15th of April, 1912 after colliding with an iceberg during her maiden voyage. The infamous sinking of the "unsinkable" is often considered as one of the most deadly sinkings resulting in the death of approximately 1502 of its 2224 passengers. Though there was some element of luck involved in surviving, some groups seemed more likely to survive than others. So in this notebook, we will build a model to predict just that, answering the question, "what sorts of people were more likely to survive?” We will be using the actual passenger data, albeit with all its shortcomings, as its a classic dataset especially suitable for classification tasks.
 >
->Whil
-
-In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). 
-classic dataset for predicting survival
-on the Titanic. Suitable for classification tasks. The sinking of the Titanic is one of the
-most infamous shipwrecks in history. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the
-death of 1502 out of 2224 passengers and crew. While there was some element of luck
-involved in surviving, it seems some groups of people were more likely to survive than
-others.Using this dataset, you asked to build a predictive model that answers the
-question: “what sorts of people were more likely to survive?” using passenger data (i.e.,
-name, age, gender, socio-economic class, etc).
-
 >II. Ames House Prices Dataset
-[https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
-A dataset for predicting house prices
+>[https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+>A dataset for predicting house prices
 based on features like size, location, and amenities. With 79 explanatory variables
 describing (almost) every aspect of residential homes in Ames, Iowa, this competition
 challenges you to predict the final price of each home. The Ames Housing dataset was
