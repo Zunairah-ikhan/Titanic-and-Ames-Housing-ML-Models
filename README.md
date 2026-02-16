@@ -1,10 +1,10 @@
 # ML Models for the Titanic and Ames Housing datasets
 
 >I. Titanic Dataset
-[https://www.kaggle.com/c/titanic/data](ttps://www.kaggle.com/c/titanic/data)
-The RMS Titanic was a British ocean liner, the largets ship of its time, that sank on 15th of April, 1912 after colliding with an iceberg during her maiden voyage. The infamous sinking of the "unsinkable" is often considered as one of the most deadly sinkings resulting in the death of approximately 1502 of its 2224 passengers. Though there was some elemtn of luck involved in surviving, some groups seemed more likely to survive than others
+[https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
+The RMS Titanic was a British ocean liner, the largets ship of its time, that sank on 15th of April, 1912 after colliding with an iceberg during her maiden voyage. The infamous sinking of the "unsinkable" is often considered as one of the most deadly sinkings resulting in the death of approximately 1502 of its 2224 passengers. Though there was some element of luck involved in surviving, some groups seemed more likely to survive than others. So in this notebook, I will be trying to build a model to predict just that
 >
->While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+>Whil
 
 In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). 
 classic dataset for predicting survival
