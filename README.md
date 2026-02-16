@@ -2,11 +2,14 @@
 
 >I. Titanic Dataset
 [https://www.kaggle.com/c/titanic/data](ttps://www.kaggle.com/c/titanic/data)
+The RMS Titanic was a British ocean liner, the largets ship of its time, that sank on 15th of April, 1912 after colliding with an iceberg during her maiden voyage. The infamous sinking of the "unsinkable" is often considered as one of the most deadly sinkings resulting in the death of approximately 1502 of its 2224 passengers. Though there was some elemtn of luck involved in surviving, some groups seemed more likely to survive than others
+>
+>While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+
+In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc). 
 classic dataset for predicting survival
 on the Titanic. Suitable for classification tasks. The sinking of the Titanic is one of the
-most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the
-widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg.
-Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the
+most infamous shipwrecks in history. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the
 death of 1502 out of 2224 passengers and crew. While there was some element of luck
 involved in surviving, it seems some groups of people were more likely to survive than
 others.Using this dataset, you asked to build a predictive model that answers the
