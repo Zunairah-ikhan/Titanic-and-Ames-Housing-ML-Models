@@ -18,25 +18,21 @@ Tasks performed in the Jupyter notebook for both datasets:
     *  Split the data into features (X) and target (y)
     *  Use `sklearn.model_selection.train_test_split` to create training and test sets
     *  For the Titanic dataset, use stratified sampling based on the Survived columnExplain why this is appropriate.
-    *  For the House Prices dataset, use random sampling. Justify your choice.
-3.  Building a Processing Pipeline
-Create a scikit-learn pipeline that includes:
-• Display basic information: info(), describe(), and head().
-• Imputation of missing values (using median for numeric, mode for categorical).
-• Encoding of categorical variables (use OneHotEncoder).
-• Scaling of numeric features (use StandardScaler).
-• Feature selection using SelectKBest with f_regression/f_classif.
-Train a linear regression model (House Prices) and a logistic regression
-model(Titanic) within the pipeline.
-4.  Task 4. Model Evaluation and Comparison (15 points)
-• Load the dataset using pandas.
-• Evaluate the model using appropriate metrics:
-o Regression: RMSE and R² score
-Classification: Accuracy, Precision, Recall, F1-score
-• Compare performance with a baseline model (e.g., mean prediction for regression,
-majority class for classification).
-Task 5. Feature Engineering (10 points)
-Create at least two new features for each dataset:
-• Titanic: e.g., FamilySize, Title extracted from Name
-• House Prices: e.g., AgeOfHouse, TotalBathrooms
-Retrain your pipeline with the new features and evaluate if performance improves.
+    *  For the House Prices dataset, use random sampling. 
+3.  Building a `scikit-learn` Processing Pipeline
+    *  Imputation of missing values (median for numeric & mode for categorical)
+    *  Encoding of categorical variables (use OneHotEncoder).
+    *  Scaling of numeric features (use StandardScaler).
+    *  Feature selection using SelectKBest with f_regression/f_classif
+    *  Train a linear regression model (House Prices) and a logistic regression model(Titanic) within the pipeline.
+4.  Model Evaluation and Comparison
+    *  Load the dataset using pandas
+    *  Evaluate the model using appropriate metrics:
+    *  Regression: RMSE and R² score
+    *  Classification: Accuracy, Precision, Recall, F1-score
+    *  Compare performance with a baseline model (e.g., mean prediction for regression, majority class for classification).
+5.  Feature Engineering
+    *  Create at least two new features for each dataset:
+    *  Titanic: e.g., FamilySize, Title extracted from Name
+    *  House Prices: e.g., AgeOfHouse, TotalBathrooms
+    *  Retrain your pipeline with the new features and evaluate if performance improves.
