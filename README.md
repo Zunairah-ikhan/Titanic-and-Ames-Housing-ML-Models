@@ -1,4 +1,6 @@
 # ML Models for the Titanic and Ames Housing datasets
+This project constructs machine learning pipelines for two classic datasets. The notebook showcases a complete ML workflow, from acquiring and analyzing data to training models and predicting labels.
+
 ## Dataset Descriptions
 >I. Titanic Dataset  
 >[https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)  
@@ -38,6 +40,20 @@
    *  Titanic: `FamilySize` and `Title` extracted from `Name`
    *  Housing: `AgeOfHouse` and `TotalSquareFootage`
 *  Retraining pipeline with the new features and evaluating if performance improves
+
+## How to Use
+1.  Clone the repository
+```
+git clone https://github.com/Zunairah-ikhan/Titanic-and-Ames-Housing-ML-Models.git 
+```
+2.  Enter dir containing Jupyter Notebook
+```
+cd Titanic-and-Ames-Housing-ML-Models
+```
+3. Make sure Python & PIP are installed
+```
+```
+4. 
 
 ### References
 1.  DagsHub. *Baseline models*. [https://dagshub.com/glossary/baseline-models/](https://dagshub.com/glossary/baseline-models/)
