@@ -3,7 +3,7 @@
 >I. Titanic Dataset
 >[https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
 >The RMS Titanic was a British ocean liner, the largets ship of its time, that sank on 15th of April, 1912 after colliding with an iceberg during her maiden voyage. The infamous sinking of the "unsinkable" is often considered as one of the most deadly sinkings resulting in the death of approximately 1502 of its 2224 passengers. Though there was some element of luck involved in surviving, some groups seemed more likely to survive than others. So in this notebook, we will build a model to predict just that, answering the question, "what sorts of people were more likely to survive?” We will be using the actual passenger data, albeit with all its shortcomings, as its a classic dataset especially suitable for classification tasks.
->
+
 >II. Ames House Prices Dataset
 >[https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 >A dataset for predicting house prices
@@ -13,19 +13,21 @@ challenges you to predict the final price of each home. The Ames Housing dataset
 compiled by Dean De Cock for use in data science education. It's an incredible
 alternative for data scientists looking for a modernized and expanded version of the
 often cited Boston Housing dataset.
-Complete the following tasks in a Jupyter notebookfor both datasets.
-Task 1. Data Acquisition and Initial Exploration (10 points)
-• Load the dataset using pandas.
+>
+
+Tasks performed in the Jupyter notebook for both datasets:
+1.  Data Acquisition and Initial Exploration
+*  Load the dataset using pandas.
 • Display basic information: info(), describe(), and head().
 • Identify missing values and decide on a strategy for handling them (with
 justification).
-Task 2. Data Preparation and Preprocessing (15 points)
-• Split the data into features (X) and target (y).
+2.  Data Preparation and Preprocessing
+ Split the data into features (X) and target (y).
 • Use sklearn.model_selection.train_test_split to create training and test sets.
 • For the Titanic dataset, use stratified sampling based on the Survived column.
 Explain why this is appropriate.
 • For the House Prices dataset, use random sampling. Justify your choice.
-Task 3. Building a Processing Pipeline (20 points)
+3.  Building a Processing Pipeline (20 points)
 Create a scikit-learn pipeline that includes:
 • Display basic information: info(), describe(), and head().
 • Imputation of missing values (using median for numeric, mode for categorical).
