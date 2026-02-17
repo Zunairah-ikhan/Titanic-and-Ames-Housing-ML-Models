@@ -18,8 +18,9 @@ Tasks performed in the Jupyter notebook for both datasets:
     *  Split the data into features (X) and target (y)
     *  Use `sklearn.model_selection.train_test_split` to create training and test sets
     *  For the Titanic dataset, use stratified sampling based on the Survived columnExplain why this is appropriate.
-• For the House Prices dataset, use random sampling. Justify your choice.
-4.  Building a Processing Pipeline (20 points)
+    *  For the House Prices dataset, use random sampling. Justify your choice.
+    *
+3.  Building a Processing Pipeline
 Create a scikit-learn pipeline that includes:
 • Display basic information: info(), describe(), and head().
 • Imputation of missing values (using median for numeric, mode for categorical).
