@@ -6,28 +6,20 @@
 
 >II. Ames House Prices Dataset
 >[https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
->A dataset for predicting house prices
-based on features like size, location, and amenities. With 79 explanatory variables
-describing (almost) every aspect of residential homes in Ames, Iowa, this competition
-challenges you to predict the final price of each home. The Ames Housing dataset was
-compiled by Dean De Cock for use in data science education. It's an incredible
-alternative for data scientists looking for a modernized and expanded version of the
-often cited Boston Housing dataset.
->
+>A dataset for predicting house prices based on features like size, location, and amenities. With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home. The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset.
+
 
 Tasks performed in the Jupyter notebook for both datasets:
 1.  Data Acquisition and Initial Exploration
-*  Load the dataset using pandas.
-• Display basic information: info(), describe(), and head().
-• Identify missing values and decide on a strategy for handling them (with
-justification).
+    *  Load the dataset using pandas
+    *  Display basic information: `info()`, `describe()`, and `head()` to analyze
+    *  Identify missing values and decide on a strategy for handling them
 2.  Data Preparation and Preprocessing
- Split the data into features (X) and target (y).
-• Use sklearn.model_selection.train_test_split to create training and test sets.
-• For the Titanic dataset, use stratified sampling based on the Survived column.
-Explain why this is appropriate.
+    *  Split the data into features (X) and target (y)
+    *  Use `sklearn.model_selection.train_test_split` to create training and test sets
+    *  For the Titanic dataset, use stratified sampling based on the Survived columnExplain why this is appropriate.
 • For the House Prices dataset, use random sampling. Justify your choice.
-3.  Building a Processing Pipeline (20 points)
+4.  Building a Processing Pipeline (20 points)
 Create a scikit-learn pipeline that includes:
 • Display basic information: info(), describe(), and head().
 • Imputation of missing values (using median for numeric, mode for categorical).
