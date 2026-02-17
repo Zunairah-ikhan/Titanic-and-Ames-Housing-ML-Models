@@ -19,7 +19,6 @@ Tasks performed in the Jupyter notebook for both datasets:
     *  Use `sklearn.model_selection.train_test_split` to create training and test sets
     *  For the Titanic dataset, use stratified sampling based on the Survived columnExplain why this is appropriate.
     *  For the House Prices dataset, use random sampling. Justify your choice.
-    *
 3.  Building a Processing Pipeline
 Create a scikit-learn pipeline that includes:
 • Display basic information: info(), describe(), and head().
@@ -29,14 +28,7 @@ Create a scikit-learn pipeline that includes:
 • Feature selection using SelectKBest with f_regression/f_classif.
 Train a linear regression model (House Prices) and a logistic regression
 model(Titanic) within the pipeline.
-COEN_COSC_ITAP_3411_202620
-Special Topics 1 - Machine Learning
-by Dr. Anwar M. Mirza
-Assignment 1
-Date: February 01, 2026
-Due: February 14, 2025, Mid-Night
-Page 3 of 3
-Task 4. Model Evaluation and Comparison (15 points)
+4.  Task 4. Model Evaluation and Comparison (15 points)
 • Load the dataset using pandas.
 • Evaluate the model using appropriate metrics:
 o Regression: RMSE and R² score
