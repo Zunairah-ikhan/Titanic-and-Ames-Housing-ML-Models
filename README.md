@@ -32,16 +32,15 @@ This project constructs machine learning pipelines for two classic datasets. The
 ### 4.  Model Evaluation & Comparison
 *  Classification metrics: Accuracy, Precision, Recall, F1-score
 *  Regression  metrics: RMSE and R² score
-*  Compare performance with a baseline model:
-*  Majority class for classification
-*  Mean prediction for regression
+*  Compare performance with a baseline model: Majority class for classification & Mean prediction for regression
 ### 5.  Feature Engineering
 *  Creating at least two new features for each dataset:
    *  Titanic: `FamilySize` and `Title` extracted from `Name`
    *  Housing: `AgeOfHouse` and `TotalSquareFootage`
 *  Retraining pipeline with the new features and evaluating if performance improves
 
-## How to Use
+## Installation
+ Make sure Python & PIP are installed
 1.  Clone the repository
 ```
 git clone https://github.com/Zunairah-ikhan/Titanic-and-Ames-Housing-ML-Models.git 
@@ -50,8 +49,11 @@ git clone https://github.com/Zunairah-ikhan/Titanic-and-Ames-Housing-ML-Models.g
 ```
 cd Titanic-and-Ames-Housing-ML-Models
 ```
-3. Make sure Python & PIP are installed
+3. Use `nbconvert` to convert python notebook to python file
 ```
+jupyter nbconvert --to python --execute Titanic-and-Ames-Housing-ML-Models.ipynb
+```
+
 ```
 4. 
 
