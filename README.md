@@ -1,5 +1,5 @@
 # ML Models for the Titanic and Ames Housing datasets
-This project constructs machine learning pipelines for two classic datasets. The notebook showcases a complete ML workflow, from acquiring and analyzing data to training models and predicting labels.
+This project constructs machine learning pipelines for two classic datasets. The Jupyter notebook outlines a complete ML workflow, from acquiring and analyzing all the features to training models and predicting labels.
 
 ## Dataset Descriptions
 >I. Titanic Dataset  
