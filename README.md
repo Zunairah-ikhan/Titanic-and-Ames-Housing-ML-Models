@@ -54,10 +54,9 @@ cd Titanic-and-Ames-Housing-ML-Models
 jupyter nbconvert --to python --execute Titanic-and-Ames-Housing-ML-Models.ipynb
 ```
 
-```
 4. 
 
-### References
+## References
 1.  DagsHub. *Baseline models*. [https://dagshub.com/glossary/baseline-models/](https://dagshub.com/glossary/baseline-models/)
 2.  Geeks for Geeks. *Machine learning*. [https://www.geeksforgeeks.org/machine-learning/machine-learning/](https://www.geeksforgeeks.org/machine-learning/machine-learning/)
 3.  Géron, A. (2017). *Hands-on machine learning with Scikit-Learn and TensorFlow* (1st ed.). O’Reilly.
