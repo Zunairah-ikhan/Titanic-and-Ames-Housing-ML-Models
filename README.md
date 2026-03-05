@@ -39,23 +39,6 @@ This project constructs machine learning pipelines for two classic datasets. The
    *  Housing: `AgeOfHouse` and `TotalSquareFootage`
 *  Retraining pipeline with the new features and evaluating if performance improves
 
-## Installation
- Make sure Python & PIP are installed
-1.  Clone the repository
-```
-git clone https://github.com/Zunairah-ikhan/Titanic-and-Ames-Housing-ML-Models.git 
-```
-2.  Enter dir containing Jupyter Notebook
-```
-cd Titanic-and-Ames-Housing-ML-Models
-```
-3. Use `nbconvert` to convert python notebook to python file
-```
-jupyter nbconvert --to python --execute Titanic-and-Ames-Housing-ML-Models.ipynb
-```
-
-4. 
-
 ## References
 1.  DagsHub. *Baseline models*. [https://dagshub.com/glossary/baseline-models/](https://dagshub.com/glossary/baseline-models/)
 2.  Geeks for Geeks. *Machine learning*. [https://www.geeksforgeeks.org/machine-learning/machine-learning/](https://www.geeksforgeeks.org/machine-learning/machine-learning/)
