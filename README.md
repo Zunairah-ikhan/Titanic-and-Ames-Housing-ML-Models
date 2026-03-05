@@ -46,4 +46,3 @@ This project constructs machine learning pipelines for two classic datasets. The
 4.  May, M. (2023). *Tackling the Ames housing dataset*. Medium [https://medium.com/@mskmay66/tackling-ames-housing-dataset/](https://medium.com/@mskmay66/tackling-the-ames-housing-dataset-c63e7947908a)
 5.  Singh, R. (2024). *Introduction to machine learning*. Medium. [https://medium.com/introduction-to-machine-learning/](https://medium.com/@RobuRishabh/introduction-to-machine-learning-555b0f1b62f5)
 6.  Thacker, N. (June, 2025). *Data preprocessing and exploratory analysis of the titanic dataset: a comprehensive machine learning approach*. [https://niyatithacker.github.io/Sinking-into-Stats/](https://niyatithacker.github.io/Sinking-into-Stats/)
-7.  Wikipedia. *Machine learning*. [https://en.wikipedia.org/wiki/Machine_learning](https://en.wikipedia.org/wiki/Machine_learning)
