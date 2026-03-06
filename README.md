@@ -40,18 +40,36 @@ This project constructs machine learning pipelines for two classic datasets. The
 *  Retraining pipeline with the new features and evaluating if performance improves
 
 ## Installation
-1. Make sure Python is installed
-1.  Clone the repository
+1. Check version of Python or install Python 
+```
+python --version
+python3 --version
+```
+```
+sudo apt install python3
+```
+2. Check verison of pip or install pip
+```
+pip --version
+```
+```
+sudo apt install python3-pip
+```
+3. Install Jupyter Notebook
+```
+pip install notebook
+```
+4.  Clone the repository
 ```
 git clone https://github.com/Zunairah-ikhan/Titanic-and-Ames-Housing-ML-Models.git 
 ```
-2.  Enter dir containing Jupyter Notebook
+5.  Navigate to directory containing Jupyter Notebook
 ```
 cd Titanic-and-Ames-Housing-ML-Models
 ```
-3. Use `nbconvert` to convert python notebook to python file
+6. Open Jupyter notebook server & load the notebook (" " is used to escape the &)
 ```
-jupyter nbconvert --to python --execute Titanic-and-Ames-Housing-ML-Models.ipynb
+jupyter notebook "Titanic&AmesHousingModels.ipynb"
 ```
 
 ## References
