@@ -42,8 +42,7 @@ This project constructs machine learning pipelines for two classic datasets. The
 ## Installation
 1. Check version of Python or install Python 
 ```
-python --version
-python3 --version
+python --version or python3 --version
 ```
 ```
 sudo apt install python3
